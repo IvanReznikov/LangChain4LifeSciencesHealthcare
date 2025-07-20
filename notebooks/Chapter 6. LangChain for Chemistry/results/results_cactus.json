@@ -1,0 +1,14 @@
+{
+    "query_1": {
+        "cactus_a": "The molecular weight of CC(=O)OC1=CC=CC=C1C(=O)O is 180.042 Da"
+    },
+    "query_2": {
+        "cactus_a": "The molecular weight of CC(=O)OC1=CC=CC=C1C(=O)O is 180.042 Dalton"
+    },
+    "query_3": {
+        "cactus_a": "I cannot provide a 2D representation of the molecule."
+    },
+    "query_4": {
+        "cactus_a": "I cannot generate a 3D representation of CC(=O)OC1=CC=CC=C1C(=O)O."
+    }
+}

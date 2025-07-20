@@ -1,0 +1,82 @@
+{
+    "query_1": {
+        "llm4chem_a": [
+            {
+                "input_text": "What is the formula of CC(=O)OC1=CC=CC=C1C(=O)O?",
+                "real_input_text": "<s>[INST] What is the formula of CC(=O)OC1=CC=CC=C1C(=O)O? [/INST]",
+                "output": [
+                    "<productIUP> CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCMS(CCCCCCCCCCCCMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMS"
+                ]
+            }
+        ],
+        "llm4chem_b": [
+            {
+                "input_text": "What is the formula of <SMILES> CC(=O)OC1=CC=CC=C1C(=O)O </SMILES>?",
+                "real_input_text": "<s>[INST] What is the formula of <SMILES> CC(=O)OC1=CC=CC=C1C(=O)O </SMILES> ? [/INST]",
+                "output": [
+                    "<SMILES> CC(=O)OC1=CC=CC=C1C(=O)OCC1=CC=CC=C1 </SMILES> .</s>"
+                ]
+            }
+        ]
+    },
+    "query_2": {
+        "llm4chem_a": [
+            {
+                "input_text": "What is the molecular mass of CC(=O)OC1=CC=CC=C1C(=O)O",
+                "real_input_text": "<s>[INST] What is the molecular mass of CC(=O)OC1=CC=CC=C1C(=O)O [/INST]",
+                "output": [
+                    "<logP> -1. nobody</s>"
+                ]
+            }
+        ],
+        "llm4chem_b": [
+            {
+                "input_text": "What is the molecular mass of <SMILES> CC(=O)OC1=CC=CC=C1C(=O)O </SMILES>?",
+                "real_input_text": "<s>[INST] What is the molecular mass of <SMILES> CC(=O)OC1=CC=CC=C1C(=O)O </SMILES> ? [/INST]",
+                "output": [
+                    "<MOLFORMULA> C11H10O5 </MOLFORMULA> .</s>"
+                ]
+            }
+        ]
+    },
+    "query_3": {
+        "llm4chem_a": [
+            {
+                "input_text": "Draw 2D representation of CC(=O)OC1=CC=CC=C1C(=O)O?",
+                "real_input_text": "<s>[INST] Draw 2D representation of CC(=O)OC1=CC=CC=C1C(=O)O? [/INST]",
+                "output": [
+                    "<SMILES> CC(=O)OC1=CC=CC=C1C(=O)O </SMILES> </SMILES> The molecule is a benzoate ester obtained by formal condensation of the carboxy group of benzoic acid with the hydroxy group of 2-acetylphenol. It is a benzoate ester and a member of benzoic acids. It is functionally related to a 2-acetylphenol. It is a conjugate acid of a 2-acetylphenylbenzoate. \n\nThe molecule is a metabolite of the herbicide 2,4-D. It has a role as a plant metabolite. \n\nIt is a conjugate acid of a 2-acetylphenylbenzoate. \n\nThe major species at pH 7.3. </s>"
+                ]
+            }
+        ],
+        "llm4chem_b": [
+            {
+                "input_text": "Draw 2D representation of <SMILES> CC(=O)OC1=CC=CC=C1C(=O)O </SMILES>?",
+                "real_input_text": "<s>[INST] Draw 2D representation of <SMILES> CC(=O)OC1=CC=CC=C1C(=O)O </SMILES> ? [/INST]",
+                "output": [
+                    "<SMILES> CC(=O)OC1=CC=CC=C1C(=O)OCC1=CC=CC=C1 </SMILES> </SMILES></s>"
+                ]
+            }
+        ]
+    },
+    "query_4": {
+        "llm4chem_a": [
+            {
+                "input_text": "Draw 3D representation of CC(=O)OC1=CC=CC=C1C(=O)O?",
+                "real_input_text": "<s>[INST] Draw 3D representation of CC(=O)OC1=CC=CC=C1C(=O)O? [/INST]",
+                "output": [
+                    "<SMILES> CC(=O)OC1=CC=CC=C1C(=O)O </SMILES> </SMILES> The molecule is a benzoate ester obtained by formal condensation of the carboxy group of benzoic acid with the hydroxy group of 2-acetylphenol. It is a benzoate ester and a member of benzoic acids. It is functionally related to a 2-acetylphenol. It is a conjugate acid of a 2-acetylphenylbenzoate. \n\nThe molecule is a metabolite of the herbicide 2,4-D. It has a role as a herbicide metabolite. It is a member of phenols, a benzoate ester and a member of benzoic acids. \n\nIt is a conjugate acid of a 2-acetylphenylbenzoate. \n\nThe major species at pH 7.3. </s>"
+                ]
+            }
+        ],
+        "llm4chem_b": [
+            {
+                "input_text": "Draw 3D representation of <SMILES> CC(=O)OC1=CC=CC=C1C(=O)O </SMILES>?",
+                "real_input_text": "<s>[INST] Draw 3D representation of <SMILES> CC(=O)OC1=CC=CC=C1C(=O)O </SMILES> ? [/INST]",
+                "output": [
+                    "<SMILES> CC(=O)OC1=CC=CC=C1C(=O)OCC1=CC=CC=C1 </SMILES> .</s>"
+                ]
+            }
+        ]
+    }
+}
