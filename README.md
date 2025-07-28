@@ -194,7 +194,7 @@ PhD | Principal Data Scientist | Adjunct Professor | LangChain Community Leader 
 
 Follow [@ivanreznikov](https://github.com/IvanReznikov) for updates, and feel free to contribute, star ⭐ the repo, or share ideas!
 
-Connect with Ivan on [LinkedIn](https://github.com/IvanReznikov) or drop and email on ivanreznikov[a]gmail.com
+Connect with Ivan on [LinkedIn](https://www.linkedin.com/in/ivanreznikov/) or drop and email on ivanreznikov[a]gmail.com
 
 ---
 
