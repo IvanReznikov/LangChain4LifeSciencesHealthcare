@@ -208,6 +208,6 @@ This repository is licensed under the MIT License.
 
 Contributions, corrections, and pull requests are welcome. Please open an issue first to discuss what you’d like to change!
 
-If you don't see something in the repo - feel free to open a pr or contact me - maybe I have it on my laptop, but to shy to publicly share.
+If you don't see something in the repo - feel free to open a pr or contact me - maybe I have it on my laptop, but too shy to publicly share.
 
 ---
