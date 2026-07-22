@@ -1,0 +1,35 @@
+{
+  "run_id": "2e081c46009a",
+  "question": "Which drugs help cardiovascular outcomes?",
+  "environment": {
+    "python": "3.11.9",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "langchain": "1.0.0",
+    "captured_at": "2026-07-21T12:22:08.748725Z"
+  },
+  "corpus_version": "ea7deb0cc2e8",
+  "prompt_hash": "87635e6c3909",
+  "parameters": {
+    "model": "gpt-4o-mini",
+    "temperature": 0.0,
+    "top_k": 2
+  },
+  "trace": [
+    {
+      "event": "retrieval",
+      "doc_id": "d2",
+      "snippet": "SGLT2 inhibitors reduce cardiovascular e"
+    },
+    {
+      "event": "retrieval",
+      "doc_id": "d1",
+      "snippet": "Metformin is first-line for type 2 diabe"
+    },
+    {
+      "event": "generation",
+      "model": "gpt-4o-mini",
+      "answer": "SGLT2 inhibitors reduce cardiovascular events."
+    }
+  ],
+  "answer": "SGLT2 inhibitors reduce cardiovascular events."
+}
