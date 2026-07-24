@@ -1,1 +1,10 @@
-widget_cleaner.py
+__pycache__/
+
+UPDATE_2026.md
+legacy
+.env
+*.venv
+notes
+open-webui-fork/
+.webui_secret_key
+webui.db
