@@ -1,4 +1,4 @@
-# LangChain for Life Sciences and Healthcare
+# LangChain for Life Sciences and Healthcare.
 
 <p align="center">
   <img src="images\cover.png" alt="LangChain for Life Sciences and Healthcare" width="300"/>
